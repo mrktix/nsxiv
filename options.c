@@ -109,7 +109,7 @@ void parse_options(int argc, char **argv)
 	_options.zoom = 1.0;
 	_options.anti_alias = ANTI_ALIAS;
 	_options.alpha_layer = ALPHA_LAYER;
-	_options.animate = false;
+	_options.animate = true;
 	_options.gamma = 0;
 	_options.slideshow = 0;
 	_options.framerate = 0;
